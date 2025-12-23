@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Database, Server, Code2, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, Database, Server, Code2 } from 'lucide-react';
 
 function App() {
   return (
@@ -7,23 +7,23 @@ function App() {
       {/* HEADER / HERO */}
       <header className="max-w-4xl mx-auto pt-20 px-6 mb-16">
         <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
-          Ton Prénom Nom
+          Ryan Edwin 
         </h1>
         <h2 className="text-2xl text-slate-300 mb-6">
-          Élève Ingénieur (4ème année) • Data & Software Engineering
+          • Élève Ingénieur (4ème année) •
         </h2>
         <p className="text-slate-400 max-w-2xl mb-8 text-lg">
           À la recherche d'un stage de 4 à 6 mois. Passionné par la création de solutions backend robustes 
           et l'analyse de données pour résoudre des problèmes concrets.
         </p>
         <div className="flex gap-4">
-          <a href="https://github.com/" target="_blank" className="flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition border border-slate-700">
+          <a href="https://github.com/ryanwi102" target="_blank" className="flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition border border-slate-700">
             <Github size={20} /> GitHub
           </a>
-          <a href="https://linkedin.com/" target="_blank" className="flex items-center gap-2 px-4 py-2 bg-blue-700 rounded-lg hover:bg-blue-600 transition">
+          <a href="www.linkedin.com/in/ryanedwinruban" target="_blank" className="flex items-center gap-2 px-4 py-2 bg-blue-700 rounded-lg hover:bg-blue-600 transition">
             <Linkedin size={20} /> LinkedIn
           </a>
-          <a href="mailto:ton.email@ecole.fr" className="flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition border border-slate-700">
+          <a href="edwinruban@et.esiea.fr" className="flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition border border-slate-700">
             <Mail size={20} /> Contact
           </a>
         </div>
