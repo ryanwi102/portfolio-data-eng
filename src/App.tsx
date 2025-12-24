@@ -6,15 +6,14 @@ import { Github, Linkedin, Mail, Database, Server, Code2 } from 'lucide-react';
 function App() {
   const [init, setInit] = useState(false);
 
-  // Configuration de l'effet Galaxie corrigée pour TypeScript
-  // On utilise useMemo pour éviter que l'objet soit recréé à chaque rendu (optimisation)
+  // Configuration de l'effet Galaxie
   const galaxyOptions = useMemo(() => ({
     background: { color: { value: "transparent" } },
     fpsLimit: 120,
     interactivity: {
       events: {
         onHover: { enable: true, mode: "repulse" },
-        resize: { enable: true }, // <--- LA CORRECTION EST ICI (Objet au lieu de true)
+        resize: { enable: true }, // J'ai aussi corrigé cette ligne pour être sûr
       },
       modes: { repulse: { distance: 100, duration: 0.4 } },
     },
